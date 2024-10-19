@@ -11,7 +11,7 @@ function Sidebar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary nav">
       <Container>
-        <Navbar.Brand as={Link} to="/home" onClick={() => setActiveTab('/')}>Sujit Dhotre</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/sujit" onClick={() => setActiveTab('/')}>Sujit Dhotre</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
