@@ -13,8 +13,9 @@ function Footer() {
     </div>
 
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li className="ms-3v li"><a className="text-body-secondary" href="www.linkedin.com/in/sujit-dhotre">
-      <img src={linkden} className="f-img w-100" alt="Second Slide" /> 
+      <li className="ms-3v li">
+        <a className="text-body-secondary" href="linkedin.com/in/sujit-dhotre" target="_blank" rel="noopener noreferrer">
+          <img src={linkden} className="f-img w-100" alt="Second Slide" /> 
         </a>
         </li>
       <li className="ms-3 li">
