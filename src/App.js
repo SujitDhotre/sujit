@@ -36,7 +36,7 @@ function App() {
       '.link'
     ]}
     />
-    <BrowserRouter basename="/port">
+    <BrowserRouter basename="/sujit">
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
