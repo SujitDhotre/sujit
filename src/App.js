@@ -36,7 +36,7 @@ function App() {
       '.link'
     ]}
     />
-    <BrowserRouter>
+    <BrowserRouter basename="/sujit">
       <Routes>
         <Route path='/sujit' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
