@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sujit/static/css/main.4e814833.css",
-    "main.js": "/sujit/static/js/main.1fb564a5.js",
+    "main.css": "/sujit/static/css/main.1580dbf4.css",
+    "main.js": "/sujit/static/js/main.2232d432.js",
     "static/js/453.370a8f1b.chunk.js": "/sujit/static/js/453.370a8f1b.chunk.js",
     "static/media/1.png": "/sujit/static/media/1.a1cde006729448e4fe9b.png",
     "static/media/2.png": "/sujit/static/media/2.45c658c1167eff470deb.png",
@@ -18,13 +18,14 @@
     "static/media/Jquery.png": "/sujit/static/media/Jquery.4e57e42ed36ca1fe4999.png",
     "static/media/json.gif": "/sujit/static/media/json.98068eda663a231e122f.gif",
     "static/media/js.png": "/sujit/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/tailwind-css.svg": "/sujit/static/media/tailwind-css.681db3393706b0b8d30fa63229e8ee85.svg",
     "index.html": "/sujit/index.html",
-    "main.4e814833.css.map": "/sujit/static/css/main.4e814833.css.map",
-    "main.1fb564a5.js.map": "/sujit/static/js/main.1fb564a5.js.map",
+    "main.1580dbf4.css.map": "/sujit/static/css/main.1580dbf4.css.map",
+    "main.2232d432.js.map": "/sujit/static/js/main.2232d432.js.map",
     "453.370a8f1b.chunk.js.map": "/sujit/static/js/453.370a8f1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e814833.css",
-    "static/js/main.1fb564a5.js"
+    "static/css/main.1580dbf4.css",
+    "static/js/main.2232d432.js"
   ]
 }
