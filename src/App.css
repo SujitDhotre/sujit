@@ -206,3 +206,20 @@ body
     filter: grayscale(0);
     cursor: pointer;
 }
+
+.skill-card {
+  border: 1px solid transparent;
+  border-radius: 17px;
+  background-color: #fff;
+  box-shadow: 0px 0px 0px transparent;
+  padding: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  border: 1px solid #b99eff;
+  background-color: #ebf3ff;
+  box-shadow: 0px 0px 10px #7927ff;
+  padding: 5px; /* Slight increase for animation effect */
+}
