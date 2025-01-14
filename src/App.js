@@ -10,6 +10,7 @@ import Exp from './Components/Exp';
 import Project from './Components/Projects'
 import Skills from './Components/Skills'
 import About from './Components/About';
+import AboutNew from './Components/AboutNew';
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
           <Route path='project' element={<Project/>}></Route>
           <Route path='skills' element={<Skills/>}></Route>
           <Route path='skills' element={<Skills/>}></Route>
-          <Route path='about' element={<About/>}></Route>
+          <Route path='about' element={<AboutNew/>}></Route>
       </Routes>
     </BrowserRouter>
     </>

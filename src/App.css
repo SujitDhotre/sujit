@@ -85,11 +85,17 @@ body
 
 }
 .type{
-  color: #f71c94;
+  color: #f71c94 ;
 }
 .lead1{
   color: #011365;
   font-family: monospace;
+  
+}
+.lead2{
+  color: #011365;
+  font-family: monospace;
+  font-size: 15px;
 }
 .send
 {
@@ -218,8 +224,26 @@ body
 }
 
 .skill-card:hover {
-  border: 1px solid #b99eff;
-  background-color: #ebf3ff;
-  box-shadow: 0px 0px 10px #7927ff;
+  /* border: 1px solid #b99eff; */
+  /* background-color: #ebf3ff; */
+  /* box-shadow: 0px 0px 10px #7927ff; */
   padding: 5px; /* Slight increase for animation effect */
+}
+.img-b{
+  width: 135%;
+  height: max-content;
+}
+.border-r{
+  border-radius: 150px 0 0 0;
+  border-top:5px solid #011365 ;
+  box-shadow: -6px -4px 11px 0px #6c6c6c
+}
+.tech-summary strong{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+  font-weight: bold;
+  color: #011365;
+}
+.tech-summary li{
+  color: #011365;
 }
