@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter,Route,Routes } from 'react-router-dom';  
+import { HashRouter, Route, Routes } from 'react-router-dom';  
 import AnimatedCursor from "react-animated-cursor"
 
 import Sidebar from './Components/Sidebar';
@@ -37,18 +37,17 @@ function App() {
       '.link'
     ]}
     />
-    <BrowserRouter basename='/sujit'>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-          <Route path='home' element={<Home/>}></Route>
-          <Route path='contact' element={<Contact/>}></Route>
-          <Route path='experience' element={<Exp/>}></Route>
-          <Route path='project' element={<Project/>}></Route>
-          <Route path='skills' element={<Skills/>}></Route>
-          <Route path='skills' element={<Skills/>}></Route>
-          <Route path='about' element={<AboutNew/>}></Route>
+          <Route path='/home' element={<Home/>}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/experience' element={<Exp/>}></Route>
+          <Route path='/project' element={<Project/>}></Route>
+          <Route path='/skills' element={<Skills/>}></Route>
+          <Route path='/about' element={<AboutNew/>}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
