@@ -37,17 +37,17 @@ function App() {
       '.link'
     ]}
     />
-    <HashRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>
-          <Route path='/home' element={<Home/>}></Route>
-          <Route path='/contact' element={<Contact/>}></Route>
-          <Route path='/experience' element={<Exp/>}></Route>
-          <Route path='/project' element={<Project/>}></Route>
-          <Route path='/skills' element={<Skills/>}></Route>
-          <Route path='/about' element={<AboutNew/>}></Route>
-      </Routes>
-    </HashRouter>
+    <HashRouter basename="/sujit">
+  <Routes>
+    <Route path="" element={<Home />} />
+    <Route path="home" element={<Home />} />
+    <Route path="contact" element={<Contact />} />
+    <Route path="experience" element={<Exp />} />
+    <Route path="project" element={<Project />} />
+    <Route path="skills" element={<Skills />} />
+    <Route path="about" element={<AboutNew />} />
+  </Routes>
+</HashRouter>
     </>
   );
 }
